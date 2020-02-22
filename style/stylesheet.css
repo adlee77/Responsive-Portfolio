@@ -26,14 +26,13 @@ p {
     background-color: white;
 }
 .navbar {
-    background-color: white;
     border-bottom-style: solid;
     border-bottom-color: grey;
 }
 .nav-link {
     position:relative;
     right: 5%;
-    color: #cccccc;
+    color: grey;
     
 }
 .col {
@@ -56,7 +55,56 @@ p {
 .col1 {
     padding-left: 5%;
 }
+.col3 {
+    padding-left: 5%;
+}
+.col4 {
+    padding-left: 5%;
+    margin-bottom: 3%;
+}
 .col2 {
     padding-left: 5%;
     margin-bottom: 3%;
+}
+.btn {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    margin-bottom: 3%;
+}
+@media only screen and (max-width: 640px) {
+    h1 {
+        width: 1000px;
+        margin: -2% -5% 0% -5%;
+        padding:5%;
+    }
+    .nav-link {
+        position:relative;
+        right: 28%;
+        
+    }
+    .col-3 {
+        margin-right:30%;
+        margin-left: 28%;
+    }
+    .col-9 {
+        margin-left: 2.5%;
+    }
+    .col-6 {
+        margin-right: 30%;
+        margin-left: 28%;
+    }
+    .col1 {
+        margin-top: 8%;
+    }
+    .col2 {
+        margin-top: 8%
+    }
+    .col3 {
+        margin-left: 28%;
+    
+    }
+    .col4 {
+        margin-left: 28%;
+        margin-bottom: 8%;
+    }
 }
