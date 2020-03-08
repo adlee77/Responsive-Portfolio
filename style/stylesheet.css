@@ -5,7 +5,12 @@ body {
     color: #777777;
     background: url("../images/concrete.jpg");
   }
-  
+  #masthead {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  }
   * {
     box-sizing: border-box;
   }
